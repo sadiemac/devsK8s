@@ -64,7 +64,7 @@ Kubernetes has gained tremendous popularity and adoption in the tech industry fo
 
 - **Ecosystem**: A vast ecosystem of tools and services has grown around Kubernetes, making it easier to integrate into existing infrastructures.
 
-- **Replicas**: Replica's are an essential way to maintain high availability, scalability, and reliability of containerized
+- **Replicas**: Replica's are an essential way to maintain high availability, scalability, load balancing and reliability of containerized
 applications. They provide a powerful way to manage applications and ensure they can handle traffic and recover from failures. This is
 particularly important in the context of container orchestration and microservices architectures.
 
