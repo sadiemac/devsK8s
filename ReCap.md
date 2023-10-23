@@ -10,6 +10,20 @@ Kubernetes follows a client-server architecture:
 
 - **Worker Nodes**: The worker nodes, also known as minions, are where the application containers run. These nodes run a container runtime, like Docker, and host pods (the smallest deployable units in Kubernetes).
 
+![Screenshot](https://github.com/sadiemac/devsK8s/releases/download/logo/Screenshot.2023-10-23.at.17.17.58.jpg)
+
+- **Pods**: The most basic execution and resource unit in Kubernetes is called a pod, which containsa container or a group of
+containers and instructions on how these containers should be operated. Each pod represents an instance of an application and always
+belongs to a namespace.  Pods that belong to the same application are identical and have the same specifications.
+In this sense, a pod can be referred to as a replica as well. Upon the deployment of an application, the desired number of replicas,
+as well as the amount of requested resource, need to be specified.
+The below diagram shows the application is created under the name Application-A in Namespace-1.
+Each pod is assigned with a unique IP address within the cluster as shown. This design allows Kubernetes to scale applications
+horizontally. For example,when an application requires more computational resources, instead of having to adjust the
+specifications of the existing pods, users can simply create another identical pod to share the load.
+This additional pod’s IP address will then be included in the application’s service that routes incoming traffic to the new pod as
+well as the existing ones. 
+
 ![Screenshot](https://github.com/sadiemac/devsK8s/releases/download/logo/Screenshot.2023-10-23.at.17.17.43.jpeg)
 
 Key concepts include:
