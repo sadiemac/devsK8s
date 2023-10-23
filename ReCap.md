@@ -9,7 +9,7 @@ Kubernetes follows a client-server architecture:
 - **Master Node**: The control plane of the cluster consists of the master node, which manages and controls the entire cluster. It includes various components like the API server, controller manager, and scheduler.
 
 - **Worker Nodes**: The worker nodes, also known as minions, are where the application containers run. These nodes run a container runtime, like Docker, and host pods (the smallest deployable units in Kubernetes).
-- ![GitHub Logo](https://gihub.com/sadiemac/devsK8s/releases/download/logo/Screenshot.2023-10-23.at.17.17.43.png)
+- ![Screenshot](https://gihub.com/sadiemac/devsK8s/releases/download/logo/Screenshot.2023-10-23.at.17.17.43.png)
 
 Key concepts include:
 
