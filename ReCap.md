@@ -97,3 +97,16 @@ Kubernetes brings several security challenges:
 Kubernetes security is an ongoing process that requires a holistic approach and continuous vigilance.
 
 Kubernetes is a powerful platform for managing containerized applications, and its adoption continues to grow as companies seek to embrace microservices and cloud-native architectures.
+
+- **To get started with learning Kubernetes**: Use this code repo to create your own cluster.  This initial set-up uses Terraform Azure Provider to configure your cluster with 2 nodes.  Then progress to provisioning your cluster with an Nginx instance and a manifest file that creates Custom Resource Definitions.  Remember to use Kubectl to query and analyse the resources you've built.
+
+For your first project, try some simple Kubernetes deployments on your local machine before deploying to CSP of your choice. 
+
+Github Repo for Nginx and CRD resource additions to your K8 Cluster Demo:
+
+K8 Playground:
+K8 Playground
+
+Getting Started with MiniKube:
+Getting Started with MiniKube
+  
