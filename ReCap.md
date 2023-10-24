@@ -104,9 +104,9 @@ For your first project, try some simple Kubernetes deployments on your local mac
 
 Github Repo for Nginx and CRD resource additions to your K8 Cluster Demo:
 
-K8 Playground:
+[K8 Playground](https://labs.play-with-k8s.com/)
 K8 Playground
 
-Getting Started with MiniKube:
-Getting Started with MiniKube
+[Getting Started with MiniKube](https://kubernetes.io/docs/tutorials/hello-minikube/)
+
   
