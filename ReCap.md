@@ -102,7 +102,8 @@ Kubernetes is a powerful platform for managing containerized applications, and i
 
 For your first project, try some simple Kubernetes deployments on your local machine before deploying to CSP of your choice. 
 
-Github Repo for Nginx and CRD resource additions to your K8 Cluster Demo:
+-Github Repo for Nginx and CRD resource additions to your K8 Cluster Demo:
+[Provision Repo](https://github.com/sadiemac/wizards-rule/tree/main)
 
 [K8 Playground](https://labs.play-with-k8s.com/)
 K8 Playground
